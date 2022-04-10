@@ -7,7 +7,7 @@
 get("/")      | get("/:id")   | post("/")    | patch("/:id")| delete("/:id")|
 
 ## Mongoose Model
-```
+```javascript
 const mongoose = require("mongoose");
 
 const subSchema = new mongoose.Schema({
