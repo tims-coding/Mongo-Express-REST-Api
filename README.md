@@ -7,7 +7,8 @@
 get("/")      | get("/:id")   | post("/")    | patch("/:id")| delete("/:id")|
 
 ## Mongoose Model
-Markup : ```const mongoose = require("mongoose");
+```
+const mongoose = require("mongoose");
 
 const subSchema = new mongoose.Schema({
   name: {
@@ -27,4 +28,5 @@ const subSchema = new mongoose.Schema({
 
 const SubModel = mongoose.model("sub", subSchema);
 
-module.exports = SubModel;```
+module.exports = SubModel;
+```
