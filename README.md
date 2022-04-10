@@ -4,5 +4,4 @@
 ## All Operations
    READ ALL   |    READ ONE   |  CREATE ONE  |
 ------------- | ------------- | ------------ |
-Content Cell  | Content Cell  |  Content     |
-Content Cell  |  \|           |  COntent     |
+get("/")      | get("/:id")   | post("/")    |
