@@ -1,0 +1,29 @@
+GET http://localhost:5555/subs
+
+###
+
+GET http://localhost:5555/subs/62525edd1b7d5b79e97c4d3d
+
+###
+
+POST http://localhost:5555/subs
+Content-Type: application/json
+
+{
+    "name": "1st Person",
+    "subChannel": "Veritasium"
+}
+
+###
+
+DELETE http://localhost:5555/subs/62525edd1b7d5b79e97c4d3d
+
+
+###
+
+PATCH  http://localhost:5555/subs/625262ba247eecfd70c2e53b
+Content-Type: application/json
+
+{
+    "name": "2nd Person"
+}
